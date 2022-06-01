@@ -1,0 +1,12 @@
+{
+  "id" : 15,
+  "firstName": "Amuthan",
+  "lastName": "Shaktivel",
+  "email": "a.shaktivel@gmail.com",
+  "jobs": ["Automation Tester","Trainer"],
+  "favFoods" : {
+    "breakfast" : "idly",
+    "lunch" : "rice",
+    "dinner" : ["chapathi","veggies"]
+  }
+}
