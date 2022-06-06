@@ -143,20 +143,17 @@ public class PostTest {
 
     }
 
-
     // Creating complex request using external JSON library
     // have some collections which can solve the complexity problems
     // using map and list interface
     @Test
     public void postRequestUsingJSONLibrary(){
-
         //pros - we can construct a dynamic request payload
         //pros - we do not have to mention the data type
         //cons - verbose, complicated request construction
 
         // { } --> Use JsonObject
         // [ ] --> Use JsonArray
-
         JSONObject object = new JSONObject();
         object.put("id",new Faker().number().numberBetween(100,1000));
         object.put("firstName",new Faker().name().firstName());
@@ -192,8 +189,6 @@ public class PostTest {
                                     .post(uri);
         response.prettyPrint();
         System.out.println(response.getStatusCode());
-
-
     }
 
 }
