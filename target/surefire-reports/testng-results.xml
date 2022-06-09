@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-09T15:01:45 IST" name="Surefire suite" finished-at="2022-06-09T15:01:57 IST" duration-ms="12469">
+    <groups>
+    </groups>
+    <test started-at="2022-06-09T15:01:45 IST" name="Surefire test" finished-at="2022-06-09T15:01:57 IST" duration-ms="12469">
+      <class name="com.qa.BuilderDesignPatternTest">
+        <test-method signature="builderTest()[pri:0, instance:com.qa.BuilderDesignPatternTest@1033576a]" started-at="2022-06-09T15:01:45 IST" name="builderTest" finished-at="2022-06-09T15:01:45 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- builderTest -->
+      </class> <!-- com.qa.BuilderDesignPatternTest -->
+      <class name="com.qa.PostUsingPojoTest">
+        <test-method signature="pojoTest()[pri:0, instance:com.qa.PostUsingPojoTest@4082ba93]" started-at="2022-06-09T15:01:55 IST" name="pojoTest" finished-at="2022-06-09T15:01:57 IST" duration-ms="1583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pojoTest -->
+      </class> <!-- com.qa.PostUsingPojoTest -->
+      <class name="com.qa.PostTest">
+        <test-method signature="postRequestFromExternalFile()[pri:0, instance:com.qa.PostTest@4a003cbe]" started-at="2022-06-09T15:01:51 IST" name="postRequestFromExternalFile" finished-at="2022-06-09T15:01:51 IST" duration-ms="743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequestFromExternalFile -->
+        <test-method signature="postRequestFromExternalFileConvertingToString()[pri:0, instance:com.qa.PostTest@4a003cbe]" started-at="2022-06-09T15:01:51 IST" name="postRequestFromExternalFileConvertingToString" finished-at="2022-06-09T15:01:52 IST" duration-ms="629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequestFromExternalFileConvertingToString -->
+        <test-method signature="postRequestFromVariableTest()[pri:0, instance:com.qa.PostTest@4a003cbe]" started-at="2022-06-09T15:01:52 IST" name="postRequestFromVariableTest" finished-at="2022-06-09T15:01:53 IST" duration-ms="646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequestFromVariableTest -->
+        <test-method signature="postRequestUsingHashMap()[pri:0, instance:com.qa.PostTest@4a003cbe]" started-at="2022-06-09T15:01:53 IST" name="postRequestUsingHashMap" finished-at="2022-06-09T15:01:54 IST" duration-ms="961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequestUsingHashMap -->
+        <test-method signature="postRequestUsingHashMapComplexPayload()[pri:0, instance:com.qa.PostTest@4a003cbe]" started-at="2022-06-09T15:01:54 IST" name="postRequestUsingHashMapComplexPayload" finished-at="2022-06-09T15:01:54 IST" duration-ms="838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequestUsingHashMapComplexPayload -->
+        <test-method signature="postRequestUsingJSONLibrary()[pri:0, instance:com.qa.PostTest@4a003cbe]" started-at="2022-06-09T15:01:54 IST" name="postRequestUsingJSONLibrary" finished-at="2022-06-09T15:01:55 IST" duration-ms="709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequestUsingJSONLibrary -->
+      </class> <!-- com.qa.PostTest -->
+      <class name="com.qa.GetTest">
+        <test-method signature="getResponseLoggedInFile()[pri:0, instance:com.qa.GetTest@76494737]" started-at="2022-06-09T15:01:49 IST" name="getResponseLoggedInFile" finished-at="2022-06-09T15:01:49 IST" duration-ms="716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResponseLoggedInFile -->
+        <test-method signature="getTest()[pri:0, instance:com.qa.GetTest@76494737]" started-at="2022-06-09T15:01:49 IST" name="getTest" finished-at="2022-06-09T15:01:50 IST" duration-ms="659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTest -->
+        <test-method signature="getWithQueryParamTest()[pri:0, instance:com.qa.GetTest@76494737]" started-at="2022-06-09T15:01:50 IST" name="getWithQueryParamTest" finished-at="2022-06-09T15:01:51 IST" duration-ms="609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getWithQueryParamTest -->
+      </class> <!-- com.qa.GetTest -->
+      <class name="com.qa.DeleteTest">
+        <test-method signature="deleteResourceTest()[pri:0, instance:com.qa.DeleteTest@303cf2ba]" started-at="2022-06-09T15:01:45 IST" name="deleteResourceTest" finished-at="2022-06-09T15:01:49 IST" duration-ms="3198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteResourceTest -->
+      </class> <!-- com.qa.DeleteTest -->
+      <class name="com.qa.UpdateTest">
+        <test-method signature="updateResourceTest()[pri:0, instance:com.qa.UpdateTest@17fc391b]" started-at="2022-06-09T15:01:57 IST" name="updateResourceTest" finished-at="2022-06-09T15:01:57 IST" duration-ms="716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateResourceTest -->
+      </class> <!-- com.qa.UpdateTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

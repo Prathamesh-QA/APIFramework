@@ -1,0 +1,6 @@
+com\qa\DeleteTest.class
+com\qa\PostTest.class
+com\qa\UpdateTest.class
+com\qa\BuilderDesignPatternTest.class
+com\qa\PostUsingPojoTest.class
+com\qa\GetTest.class

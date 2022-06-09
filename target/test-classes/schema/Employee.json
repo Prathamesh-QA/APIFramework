@@ -1,0 +1,103 @@
+{
+  "type": "object",
+  "properties": {
+    "email": {
+      "type": "string"
+    },
+    "favFood": {
+      "type": "object",
+      "properties": {
+        "breakfast": {
+          "type": "string"
+        },
+        "lunch": {
+          "type": "string"
+        },
+        "dinner": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "required": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ]
+    },
+    "id": {
+      "type": "integer"
+    },
+    "jobs": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "marks": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "marathi": {
+              "type": "integer"
+            },
+            "english": {
+              "type": "integer"
+            },
+            "maths": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "marathi",
+            "english",
+            "maths"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "marathi": {
+              "type": "integer"
+            },
+            "english": {
+              "type": "integer"
+            },
+            "maths": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "marathi",
+            "english",
+            "maths"
+          ]
+        }
+      ]
+    },
+    "username": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "email",
+    "favFood",
+    "id",
+    "jobs",
+    "marks",
+    "username"
+  ]
+}
